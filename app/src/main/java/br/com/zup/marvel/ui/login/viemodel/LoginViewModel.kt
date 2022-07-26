@@ -11,7 +11,9 @@ import br.com.zup.marvel.data.repository.AuthenticationRepository
 
 class LoginViewModel : ViewModel() {
     private val authRepository = AuthenticationRepository()
+
     private var _userLoginTo = MutableLiveData<User>()
+    val userLoginTo: LiveData<User> = _userLoginTo
 
     private var _errorState = MutableLiveData<String>()
     val errorState: LiveData<String> = _errorState
