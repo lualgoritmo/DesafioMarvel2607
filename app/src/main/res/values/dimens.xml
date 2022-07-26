@@ -8,4 +8,5 @@
     <dimen name="size_300">300dp</dimen>
     <dimen name="margin_86">86dp</dimen>
     <dimen name="txtDefault_16">16sp</dimen>
+    <dimen name="default_margin_10">10dp</dimen>
 </resources>

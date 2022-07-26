@@ -7,7 +7,7 @@ import br.com.zup.marvel.*
 import br.com.zup.marvel.data.model.User
 import br.com.zup.marvel.data.repository.AuthenticationRepository
 
-class RegisterViewModel: ViewModel() {
+class RegisterViewModel : ViewModel() {
     private val authenticationRepository = AuthenticationRepository()
 
     private var _registerState = MutableLiveData<User>()
@@ -38,6 +38,7 @@ class RegisterViewModel: ViewModel() {
             }
         }
     }
+
     private fun cadastreUser(user: User) {
         try {
             authenticationRepository.cadastreUser(
