@@ -27,7 +27,7 @@ class RegisterViewModel: ViewModel() {
             user.password.isEmpty() -> {
                 _errorState.value = PASSWORD_ERROR_MESSAGE
             }
-            user.name.length in 1..2 -> {
+            user.name.length in 1..3 -> {
                 _errorState.value = TXT_ERROR_QTD
             }
             user.password.length in 1..7 -> {
