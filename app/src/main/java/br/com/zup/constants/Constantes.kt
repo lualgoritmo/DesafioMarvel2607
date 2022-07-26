@@ -1,5 +1,6 @@
 package br.com.zup.marvel
-
+const val TXT_ERROR_QTD = "Nome tem que ser maior queu 2 silabas"
+const val TXT_ERROR_PASSWORD_QTD = "A senha deve ser acima de 7 digitos"
 const val CREATE_USER_ERROR_MESSAGE = "Error na criação do usuário"
 const val NAME_ERROR_MESSAGE = "Preencha o nome corretamente"
 const val PASSWORD_ERROR_MESSAGE = "Preencha o campo senha corretamente"
