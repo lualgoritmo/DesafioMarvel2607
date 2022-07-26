@@ -36,6 +36,7 @@ class RegisterUser : AppCompatActivity() {
             password = binding.edtRegisterPasswordl.text.toString()
         )
     }
+
     private fun initObservers() {
         viewModel.registerState.observe(this) {
             goToHome(it)
@@ -45,6 +46,7 @@ class RegisterUser : AppCompatActivity() {
             Snackbar.make(binding.root, it, Snackbar.LENGTH_LONG).show()
         }
     }
+
     private fun goToHome(user: User) {
         val intent = Intent(this, HomeActivity::class.java).apply {
             putExtra(USER_KEY, user)

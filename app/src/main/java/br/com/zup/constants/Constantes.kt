@@ -2,10 +2,11 @@ package br.com.zup.marvel
 
 const val CREATE_USER_ERROR_MESSAGE = "Error na criação do usuário"
 const val NAME_ERROR_MESSAGE = "Preencha o nome corretamente"
-const val EMAIL_ERROR_MESSAGE = "Preencha o e-mail corretamente"
 const val PASSWORD_ERROR_MESSAGE = "Preencha o campo senha corretamente"
 const val USER_KEY = "user"
+const val EMAIL_ERROR_MESSAGE = "Preenca o campo de e-mail"
 const val MARVEL_KEY = "MARVEL"
+const val LOGIN_ERROR_MESSAGE = "Usuário não encontrado"
 const val GAMORRA_NOME = "Gamorra"
 const val GAMORRA_DESCRICAO =
     "Gamora foi uma personagem fictícia que apareceu nas histórias em quadrinhos publicadas pela Marvel Comics. Criada por Jim Starlin, a personagem apareceu pela primeira vez em \\\"Strange Tales\\\" #180. Gamora foi a filha adotiva de Thanos, e a última de sua espécie.\"\n"
