@@ -20,6 +20,17 @@ class MarvelRepository {
         return auth.currentUser?.updateProfile(profile)
     }
 
+    fun goOutNow() {
+        auth.signOut()
+    }
+
+    fun loginUser(email: String, password: String): Task<AuthResult> {
+        return auth.signInWithEmailAndPassword(email, password)
+    }
+
+    fun getNameUser(): String = auth.currentUser?.displayName.toString()
+    fun getEmailUser(): String = auth.currentUser?.email.toString()
+
     fun getMarvelList(): List<Marvel> {
         val marvelList = mutableListOf<Marvel>()
 
