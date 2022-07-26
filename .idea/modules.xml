@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/DesafioMarvel2607.iml" filepath="$PROJECT_DIR$/.idea/DesafioMarvel2607.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Marvel.iml" filepath="$PROJECT_DIR$/.idea/Marvel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Marvel.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Marvel.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Marvel.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Marvel.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Marvel.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Marvel.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Marvel.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Marvel.app.unitTest.iml" />
     </modules>
   </component>
 </project>
