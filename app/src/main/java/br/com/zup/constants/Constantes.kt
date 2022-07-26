@@ -4,6 +4,7 @@ const val CREATE_USER_ERROR_MESSAGE = "Error na criação do usuário"
 const val NAME_ERROR_MESSAGE = "Preencha o nome corretamente"
 const val EMAIL_ERROR_MESSAGE = "Preencha o e-mail corretamente"
 const val PASSWORD_ERROR_MESSAGE = "Preencha o campo senha corretamente"
+const val USER_KEY = "user"
 const val MARVEL_KEY = "MARVEL"
 const val GAMORRA_NOME = "Gamorra"
 const val GAMORRA_DESCRICAO =
