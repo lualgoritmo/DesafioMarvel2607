@@ -4,10 +4,10 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import br.com.zup.marvel.data.model.Marvel
-import br.com.zup.marvel.data.repository.MarvelRepository
+import br.com.zup.marvel.data.repository.AuthenticationRepository
 
 class HomeViewModel: ViewModel() {
-    private val marvelRepository = MarvelRepository()
+    private val marvelRepository = AuthenticationRepository()
 
     private var _marvelListState = MutableLiveData<List<Marvel>>()
     val marvelListState: LiveData<List<Marvel>> = _marvelListState

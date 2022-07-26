@@ -9,7 +9,7 @@ import com.google.firebase.auth.UserProfileChangeRequest
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
-class MarvelRepository {
+class AuthenticationRepository {
     private val auth: FirebaseAuth = Firebase.auth
     fun cadastreUser(email: String, password: String): Task<AuthResult> {
         return auth.createUserWithEmailAndPassword(email, password)
