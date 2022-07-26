@@ -35,8 +35,8 @@
 
     <EditText
         android:id="@+id/edtRegisterPasswordl"
-        android:layout_width="213dp"
-        android:layout_height="58dp"
+        android:layout_width="413dp"
+        android:layout_height="53dp"
         android:layout_marginTop="12dp"
         android:hint="Digite a sua senha"
         android:inputType="textPassword"
@@ -50,13 +50,12 @@
         android:id="@+id/btnRegisterUser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginLeft="28dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="28dp"
         android:inputType="text"
         android:text="Registrar Conta"
         android:textSize="@dimen/txtDefault_16"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtRegisterPasswordl" />
 
